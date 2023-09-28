@@ -88,10 +88,10 @@ em sessões de comunicações em uma rede de computadores usando o protocolo SSH
 	#opção do comando wget: -v (verbose), -O (output file)
 	
 	#atualizando o arquivo de configuração do OpenSSH Server
-	sudo wget -v -O /etc/ssh/sshd_config https://raw.githubusercontent.com/vaamonde/ubuntu-2204/main/conf/sshd_config
+	sudo wget -v -O /etc/ssh/sshd_config https://raw.githubusercontent.com/capitaotala/ubuntu-2204/main/conf/sshd_config
 
 	#atualizando arquivo de configuração do Banner do Ubuntu Server
-	sudo wget -v -O /etc/issue.net https://raw.githubusercontent.com/vaamonde/ubuntu-2204/main/conf/issue.net
+	sudo wget -v -O /etc/issue.net https://raw.githubusercontent.com/capitaotala/ubuntu-2204/main/conf/issue.net
 
 	#editando o arquivo de configuração do OpenSSH Server
 	sudo vim /etc/ssh/sshd_config
